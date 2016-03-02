@@ -2,4 +2,9 @@
 
 .jumbotron {
   background-color: #A0A0A0;
+  background-image: url('/img/brick.jpg');
+}
+
+.sidebar {
+  background-image: url('/img/brick.jpg');
 }
