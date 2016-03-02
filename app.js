@@ -17,7 +17,9 @@ app.get('/', function(req, res) {
     jumbotron_title: "Space To Use",
     sidebar: sidebar
   });
-})
+});
+
+
 
 var sidebar = {
   "Equipment": {
