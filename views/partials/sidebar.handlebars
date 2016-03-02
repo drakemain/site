@@ -1,0 +1,8 @@
+{{#each sidebar}}
+  <ul class="list-group">
+    <li class="list-group-item">{{@key}}</li>
+    {{#each this}}
+      <li class="list-group-item"><a href="{{this}}">{{@key}}</a></li>
+    {{/each}}
+  </ul> 
+{{/each}}

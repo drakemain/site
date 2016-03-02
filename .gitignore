@@ -1,0 +1,6 @@
+bpe.sublime-project
+bpe.sublime-workspace
+
+node_modules/
+
+test.js
