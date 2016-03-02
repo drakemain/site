@@ -1,8 +1,17 @@
-{{#each sidebar}}
+<style>
+  .list-group-item {
+    background-color: rgba(0, 0, 0, .3);
+    text-align: "middle";
+  }
+</style>
+
+<div class="sidebar">
+  {{#each sidebar}}
   <ul class="list-group">
     <li class="list-group-item">{{@key}}</li>
     {{#each this}}
-      <li class="list-group-item"><a href="{{this}}">{{@key}}</a></li>
+    <button type="button" style="text-align:center" class="list-group-item"><a href="{{this}}">{{@key}}</a></button>
     {{/each}}
   </ul> 
-{{/each}}
+  {{/each}}
+</div>
