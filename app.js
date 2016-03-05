@@ -12,33 +12,24 @@ app.set('view engine', 'handlebars');
 
 app.get('/', function(req, res) {
   res.render('index', {
-    title: "BPE",
-    header_title: "Bakery Production Equipment, Inc.",
+    title: "Drake Main",
+    header_title: "Drake E. Main",
     jumbotron_title: "Space To Use",
     sidebar: sidebar
   });
 });
 
-
-
 var sidebar = {
-  "Equipment": {
-    "Mixers": "#",
-    "Dividers": "#",
-    "Sheeters": "#",
-    "Packaging": "#"
-  },
-
-  "Equipment for:": {
-    "Donuts": "#",
-    "Cookies": "#",
-    "Bread and rolls": "#",
-    "Tortillas": "#",
-  },
-
-  "Us": {
+  "Me": {
     "About": "#",
-    "Contact": "#"
+    "Goals": "#",
+    "Resume": "#"
+  },
+
+  "Projects": {
+    "Steamsig": "#",
+    "Unreal 4": "#",
+    "This website": "#",
   }
 }
 
