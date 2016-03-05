@@ -1,10 +1,18 @@
 @import url("https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css");
 
+body {
+  background-color: rgb(100, 90, 80);
+}
+
 .jumbotron {
-  background-color: #A0A0A0;
-  background-image: url('/img/brick.jpg');
+  background-color: rgb(218, 171, 63);
 }
 
 .sidebar {
-  background-image: url('/img/brick.jpg');
+  background-color: rgb(218, 171, 63);
+} .sidebar .list-group-item {
+  background-color: rgba(0, 0, 0, .35);
+  border-color: transparent;
+} .sidebar .list-group-item:hover {
+  background-color: rgb(100, 90, 80);
 }
